@@ -164,3 +164,81 @@ form{
     font-weight: bold;
     text-align: center;
 }
+
+/* For screens smaller than 768px (tablets) */
+@media screen and (max-width: 767px) {
+    .gambar {
+        max-width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+    .kontainer {
+        max-width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-top: 10vh;
+        border-radius: 0;
+        padding: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .navbar-brand img {
+        width: 100px; /* Adjust as needed */
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+}
+
+/* For screens smaller than 576px (phones) */
+.login-pg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gambar {
+    margin-bottom: 20px; /* Adjust as needed for spacing */
+}
+
+@media screen and (max-width: 767px) {
+    .kontainer {
+        max-width: 90%; /* Adjust as needed */
+    }
+}
+@media screen and (max-width: 575px) {
+    .gambar {
+        max-width: 100%;
+        margin-right: 0;
+        margin-top: 5vh;
+    }
+
+    .kontainer {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 5vh;
+        padding: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .navbar-brand img {
+        width: 80px; /* Adjust as needed */
+    }
+
+    nav ul li a {
+        font-size: 12px;
+        margin-right: 8px;
+    }
+}
