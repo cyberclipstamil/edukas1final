@@ -1,4 +1,4 @@
-body{
+body {
 	height: 100%;
 	width: 100%;
 	background-image: url(img/book.jpg);
@@ -8,61 +8,64 @@ body{
 }
 
 #web-navbar {
-    background-color: transparent;
-    padding: 0 50px;
+	background-color: transparent;
+	padding: 0 50px;
 }
 
 nav img {
-    width: 120px;
+	width: 120px;
 }
 
 nav ul li a {
-    font-size: 16px;
-    font-weight: 800;
-    font-family: 'Roboto', sans-serif;
-    color: white !important;
-    margin-right: 15px;
+	font-size: 16px;
+	font-weight: 800;
+	font-family: 'Roboto', sans-serif;
+	color: white !important;
+	margin-right: 15px;
 }
 
 li.active a,
 li a:hover {
-    background-color: white !important;
-    color: navy !important;
-    border-radius: 10px;
+	background-color: white !important;
+	color: navy !important;
+	border-radius: 10px;
 }
 
 nav button.navbar-toggler:focus,
 nav button.navbar-toggler:active {
-    outline: none !important;
+	outline: none !important;
 }
 
-.login-pg{
+.login-pg {
 	display: flex;
 	justify-content: center;
 	background-color: transparent;
 	max-width: 100%;
 	min-height: 100%;
-	
+
 }
 
-.pic{
+.pic {
 
 	background-size: cover;
 	background-position: center;
-	
+
 }
-.he{
+
+.he {
 	height: 90px;
 	width: 110px;
 	margin-left: 100px;
 	padding: 0px;
 }
-.log{
+
+.log {
 	height: 150px;
 	width: 170px;
 
 }
-.gambar{
+
+.gambar {
 	flex-grow: 1;
 	max-height: 50%;
 	max-width: 30%;
@@ -70,11 +73,13 @@ nav button.navbar-toggler:active {
 	float: left;
 	margin-top: 20vh;
 }
-.gambar-e{
+
+.gambar-e {
 	padding-top: 100px;
 	text-align: center;
 }
-.gambar-e p{
+
+.gambar-e p {
 	line-height: 20px;
 	letter-spacing: 2px;
 	margin: 10px;
@@ -82,6 +87,7 @@ nav button.navbar-toggler:active {
 	font-weight: bold;
 	color: #faf8f8;
 }
+
 .kontainer {
 	flex-grow: 1;
 	max-height: 50%;
@@ -94,27 +100,32 @@ nav button.navbar-toggler:active {
 	margin-bottom: 5vh;
 	border-radius: 20px;
 }
-.log-form{
+
+.log-form {
 	margin: 20px;
 }
-form{
+
+form {
 	padding: 15px;
 }
-.dropdown-item{
+
+.dropdown-item {
 	font-weight: bold !important;
 }
-.dropdown-item:hover{
-	background-color: #e8e8e8 !important; 
+
+.dropdown-item:hover {
+	background-color: #e8e8e8 !important;
 	font-weight: normal !important;
 	border-radius: 20px;
 	width: 40vh !important;
 	transition: .5s;
 }
-.form-control{
+
+.form-control {
 	width: 90%;
 }
 
-@media screen and (max-width: 991px ){
+@media screen and (max-width: 991px) {
 	.kontainer {
 		max-width: 35%;
 		transition: .3s;
@@ -122,123 +133,135 @@ form{
 }
 
 #footer {
-    height: auto;
-    padding: 20px;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  
-   
+	height: auto;
+	padding: 20px;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+
 }
 
 
 
 .icon {
-    text-align: center;
+	text-align: center;
 }
 
 .icon a {
-    color: #212529;
+	color: #212529;
 }
 
 .icon a:hover {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 .icon a:hover .white {
-    text-decoration: none;
-    color: #212529;
+	text-decoration: none;
+	color: #212529;
 }
 
 .icon .white {
-    color: white;
+	color: white;
 }
 
 #footer p {
-    font-family: 'Hind Siliguri', sans-serif;
-    color: white;
-    font-size: 15px;
-    margin-top: 13px;
-    font-weight: bold;
-    text-align: center;
+	font-family: 'Hind Siliguri', sans-serif;
+	color: white;
+	font-size: 15px;
+	margin-top: 13px;
+	font-weight: bold;
+	text-align: center;
 }
 
 /* For screens smaller than 768px (tablets) */
 @media screen and (max-width: 767px) {
-    .gambar {
-        max-width: 100%;
-        float: none;
-        margin-right: 0;
-        margin-top: 10vh;
-        text-align: center;
-    }
+	.gambar {
+		max-width: 100%;
+		float: none;
+		margin-right: 0;
+		margin-top: 10vh;
+		text-align: center;
+	}
 
-    .kontainer {
-        max-width: 100%;
-        float: none;
-        margin-left: 0;
-        margin-top: 10vh;
-        border-radius: 0;
-        padding: 15px;
-    }
+	.kontainer {
+		max-width: 100%;
+		float: none;
+		margin-left: 0;
+		margin-top: 10vh;
+		border-radius: 0;
+		padding: 15px;
+	}
 
-    .form-control {
-        width: 100%;
-    }
+	.form-control {
+		width: 100%;
+	}
 
-    .navbar-brand img {
-        width: 100px; /* Adjust as needed */
-    }
+	.navbar-brand img {
+		width: 100px;
+		/* Adjust as needed */
+	}
 
-    nav ul li a {
-        font-size: 14px;
-        margin-right: 10px;
-    }
+	nav ul li a {
+		font-size: 14px;
+		margin-right: 10px;
+	}
 }
 
 /* For screens smaller than 576px (phones) */
 .login-pg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	justify-content: space-around;
+	/* Adjust as needed for spacing */
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .gambar {
-    margin-bottom: 20px; /* Adjust as needed for spacing */
+	width: 50%;
+	/* Adjust as needed */
+}
+
+.kontainer {
+	width: 50%;
+	/* Adjust as needed */
 }
 
 @media screen and (max-width: 767px) {
-    .kontainer {
-        max-width: 90%; /* Adjust as needed */
-    }
+
+	.gambar,
+	.kontainer {
+		width: 100%;
+	}
 }
+
 @media screen and (max-width: 575px) {
-    .gambar {
-        max-width: 100%;
-        margin-right: 0;
-        margin-top: 5vh;
-    }
+	.gambar {
+		max-width: 100%;
+		margin-right: 0;
+		margin-top: 5vh;
+	}
 
-    .kontainer {
-        max-width: 100%;
-        margin-left: 0;
-        margin-top: 5vh;
-        padding: 15px;
-    }
+	.kontainer {
+		max-width: 100%;
+		margin-left: 0;
+		margin-top: 5vh;
+		padding: 15px;
+	}
 
-    .form-control {
-        width: 100%;
-    }
+	.form-control {
+		width: 100%;
+	}
 
-    .navbar-brand img {
-        width: 80px; /* Adjust as needed */
-    }
+	.navbar-brand img {
+		width: 80px;
+		/* Adjust as needed */
+	}
 
-    nav ul li a {
-        font-size: 12px;
-        margin-right: 8px;
-    }
+	nav ul li a {
+		font-size: 12px;
+		margin-right: 8px;
+	}
 }

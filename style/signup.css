@@ -156,3 +156,47 @@ h4{
 }
 
 
+@media screen and (max-width: 991px) {
+    .form {
+        width: 80%; /* Adjust as needed */
+        left: 10%; /* Adjust as needed */
+        top: 150px; /* Adjust as needed */
+        border-radius: 20px; /* Adjust as needed */
+    }
+
+    h1 {
+        font-size: 36px; /* Adjust as needed */
+    }
+
+    h4 {
+        font-size: 24px; /* Adjust as needed */
+    }
+
+    .form-group,
+    .form-row {
+        padding-left: 10px; /* Adjust as needed */
+    }
+
+    .btn {
+        margin-left: 10px; /* Adjust as needed */
+        margin-bottom: 10px; /* Adjust as needed */
+        width: 90%; /* Adjust as needed */
+        border-radius: 20px; /* Adjust as needed */
+    }
+
+    .dropdown-item {
+        margin-left: 10px; /* Adjust as needed */
+        margin-bottom: 5px; /* Adjust as needed */
+        width: 90%; /* Adjust as needed */
+    }
+
+    #footer {
+        margin-top: 20px; /* Adjust as needed */
+    }
+
+    #recaptcha-container {
+        width: 90%; /* Make reCAPTCHA box responsive */
+        margin-left: 10px; /* Adjust as needed */
+        margin-bottom: 10px; /* Adjust as needed */
+    }
+}
