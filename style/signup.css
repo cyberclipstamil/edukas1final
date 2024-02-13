@@ -68,11 +68,18 @@ main{
 	box-sizing: border-box;
 	border-radius: 30px;
 }
+
 @media screen and (max-width: 991px ){
 	.form {
 		width: 40%;
 		transition: .3s;
 	}
+}
+
+#recaptcha-container {
+    width: 100%;
+    margin: 10px 20px;
+    box-sizing: border-box;
 }
 h1{
 	padding: 10px 0px 0px 10px;
@@ -194,9 +201,9 @@ h4{
         margin-top: 20px; /* Adjust as needed */
     }
 
-    #recaptcha-container {
-        width: 80%; /* Make reCAPTCHA box responsive */
-         /* Adjust as needed */
-        margin-bottom: 10px; /* Adjust as needed */
-    }
+	@media screen and (max-width: 991px) {
+		#recaptcha-container {
+			margin: 0 auto;display: table;
+		}
+	}
 }
